@@ -1,0 +1,458 @@
+ body{
+ 	margin: 0px;
+ }
+/* header */
+ #body-header{
+
+ 	height: 60vh;
+ 	opacity: 0.8;
+ 	background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+ 	
+ 	background-position: center;
+ 	background-attachment: fixed;
+ }
+
+/* horigental list */
+ .horigental{
+ 	list-style: none;
+ 	padding-left: 0px;
+ 	text-align: center;
+ 	font-size: 1.5rem;
+ }
+
+  .horigental li{
+  	display: inline-block;
+  	margin: 0px 8px 8px 8px;
+  	 transition: color 0.5s, border-bottom 4s;
+  }
+
+  .horigental li a{
+  	color: white;
+  	text-decoration: none;
+    border-radius: 50%;
+
+  }
+
+
+.horigental1 li a i:hover{
+    box-shadow:0px 0px 6px 4px grey;
+}
+
+
+
+  .horigental li a:hover {
+    color: lightgrey;
+    border-bottom: 1px solid white;
+}
+
+  #head{
+    color:white;
+    text-align:center;
+    margin-top:80px
+   
+}
+
+/* Social Icon*/
+
+
+.horigental1{
+  list-style: none;
+  padding-left: 0px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.horigental1 li{
+  
+  display: inline-block;
+    margin: 0px 5px 5px 5px;
+     border-radius: 50%;
+
+}
+
+.horigental1 li a{
+  color: white;
+  
+}
+
+.horigental1 li a i: hover{
+
+  box-shadow:0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+/* about */
+section{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items:center ;
+}
+
+section:nth-child(2n){
+  background-color:#f1e6e6;;
+}
+
+section:nth-child(2n+1){
+  background-color: white;
+}
+
+#about{
+  heigth: auto;
+  width: 100%;
+  position: relative;
+}
+
+#about1{
+  width: 70%;
+}
+
+#about2{
+  font-size: 2rem;
+}
+#my-image {
+  height: 12rem;
+  width: 12rem;
+  margin-left: 40%;
+   margin-right: 40%;
+   border-radius: 50%;
+   margin-top: -50px;
+}
+
+#my-image img{
+  height: 100%;
+  width: 100%;
+}
+
+/* skill section */
+
+.section-header{
+  color:blue; /*#2857a4;*/
+  font-size: 2rem;
+}
+
+ .display{
+  width: 70%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items:space-between ;
+
+ }
+
+ .display-progress{
+    width: 200px;
+    height: 40px;
+    background-color: pink;
+    border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 100px;
+ }
+
+ #progress1{
+    width: 85%;
+    height: 40px;
+    background-color: blue;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 1.5rem;
+    text-align: left;
+
+ }
+
+ #progress2{
+    width: 85%;
+    height: 40px;
+    background-color: red;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 1.5rem;
+    text-align: left;
+
+ }
+
+ #progress3{
+    width: 85%;
+    height: 40px;
+    background-color: yellow;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 1.5rem;
+    text-align: left;
+
+ }
+
+ #progress4{
+    width: 85%;
+    height: 40px;
+    background-color: blue;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 1.5rem;
+    text-align: left;
+
+ }
+
+ #progress4{
+    width:85%;
+    height: 40px;
+    background-color: darkgrey;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 1.5rem;
+    text-align: left;
+
+ }
+
+ #progress5{
+    width:85%;
+    height: 40px;
+    background-color: darkgrey;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 1.5rem;
+    text-align: left;
+
+ }
+
+ #progress6{
+    width: 85%;
+    height: 40px;
+    background-color: goldenrod;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 1.5rem;
+    text-align: left;
+
+ }
+ #progress7{
+    width: 85%;
+    height: 40px;
+    background-color: blue;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 1.5rem;
+    text-align: left;
+
+ }
+
+ 
+
+
+
+ /* portpolio section  */
+
+ .portpolio1{
+   width: 70%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items:space-between ;
+
+ }
+
+#portpolio_head{
+   text-align: center;
+   color: blue;
+   margin-left: 40%;
+   margin-right: 40%;
+   font-size: 2rem;
+   font-style: bold;
+
+}
+
+ .portpolio2 img{
+  width: 30%;
+  
+
+ }
+
+
+  @media screen and (max-width: 600px)
+{
+
+    
+    .portpolio2 img{
+       width: 80% !important;
+       
+    }
+
+    
+
+  }
+
+/* contact section */
+.contact{
+    width:100%;
+    height:auto;
+    background-image: linear-gradient(to right,#151718, #020248);
+   
+    
+}
+
+#h{
+    text-align:center;
+    color:white;
+    
+}
+#contact1{
+    width:70%;
+    height:auto;
+    display:flex;
+    flex-direction:row;
+   justify-content:space-between;
+   flex-wrap: wrap;
+   box-sizing: div-box;
+   margin-left:20%;
+    margin-right:30%;
+   
+}
+
+.contact2{
+   color: white;
+}
+
+.input{
+    border:none;
+    width:200%;
+    border-bottom:2px solid white;
+    background-color:transparent;
+    color:white;
+}
+
+#span{
+    border:1px solid white:
+       margin-left:30px;
+    background-color:lightblue;
+    padding:2px 2px 2px 2px;
+}
+
+.social{
+    list-style:none;
+    text-align:center;
+}
+
+.social1 li{
+    display:inline-block;
+    margin:0px 5px 5px 5px;
+}
+.social li a{
+    color:white;
+}
+
+
+/* experience section */
+
+#exp{
+    text-align:center; 
+     color:blue;
+     font-size: 2rem;
+}
+
+.timeline{
+    position:relative;
+    width:75%;
+    margin:auto;
+   
+    border:2px solid black;
+}
+
+.timeline-box{
+     position:relative;
+    width:40%;
+     min-height:150px;
+    margin-left:5px;
+    left:3%;
+    border:1px solid black;
+    word-wrap: break-word;
+}
+
+.timeline-box:nth-child(2n){
+    left:53%;
+}
+
+.timeline-box:nth-child(2n)::before{
+    content:'';
+    position: absolute;
+    top:35%;
+    left:-10%;
+     border-radius:50%;
+    width:0.7rem;
+    height:0.7rem;
+    background-color:red;
+    z-index:1;
+}
+
+.timeline-box:nth-child(2n+1)::before{
+    content:'';
+    position: absolute;
+    top:40%;
+    right:-18%;
+    border-radius:50%;
+    width:0.7rem;
+    height:0.7rem;
+    background-color:red;
+    z-index:1;
+}
+
+
+.timeline-divide{
+    position:absolute;
+
+    height:75%;
+    width:0%;
+    border:2px dashed #0096fa6b;
+    top:10%;
+    left:50%;
+}
+
+.timeline-traveler{
+    position:sticky;
+    top:30%;
+    transform:rotate(90deg);
+    z-index:2;
+}
+
+.collage{
+  color: red;
+}
+
+#branch{
+  color: blue;
+  font-size: 1.5rem;
+}
+
+
+@media screen and (max-width: 600px)
+{
+     .timeline-divide{
+          left: 5%;
+     }
+
+     .timeline-box{
+      left: 12% !important;
+      width: 80%;
+     }
+
+
+     .timeline-box::before{
+      left: -12% !important; 
+     }
+     
+     /*
+     .timeline-box:nth-child(2n+1)::before{
+
+      left: -12%;
+     }
+
+     .timeline-box:nth-child(2n)::before{
+
+      left: -12%;
+     }*/
+}
+
+
